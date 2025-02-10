@@ -1,22 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body{
     display: flex;
     flex-direction: column;
     gap: 5px;
     background-color: antiquewhite;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 html,body{
     height: 100%;
 }
 
 header{
-    margin: 30px;
-}
-
-header h1{
-    text-align: center;
-    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /*arriba/abajo, izquierda/derecha */
+    background-color: rgb(156, 163, 163);
 }
 
 header nav{
@@ -31,11 +35,29 @@ header nav a{
     text-decoration: none;
     border-style: solid;
     border-color: black;
-    color: rgb(91, 51, 131);
+    color: rgb(0, 0, 0);
 }
 
 section{
+    font-size: 30px;
     margin: 30px;
+}
+
+#identidad{
+    text-align: center;
+}
+
+#identidad p{
+    text-align: center;
+    font-size: 25px;
+}
+
+#servicios{
+    text-align: center;
+}
+
+#contacto{
+    text-align: center;
 }
 
 footer{
@@ -46,6 +68,33 @@ footer{
     width: 100%;
 }
 
-#servicios ul{
-    list-style-type: square;
+#serviciosP {
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+    list-style-position: inside;
+}
+
+#serviciosP li{
+    font-size: 25px;
+    margin: 10px;
+}
+
+#serviciosP ul li{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+@media (max-width:500px){
+    header nav{
+        gap: 10px;
+    }
+    header nav a{
+        padding: 5px;
+    }
+    header h1{
+        font-size: 30px;
+    }
+
 }
