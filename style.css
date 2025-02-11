@@ -128,7 +128,8 @@ footer nav a{
 @media (max-width: 450px) and (min-width:150px){
     header nav {
         flex-direction: column;
-        gap: 5px;
+        gap: 2px;
+        font-size: 15px;
     }
     header nav a {
         padding: 3px;
