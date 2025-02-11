@@ -47,9 +47,14 @@ section{
     text-align: center;
 }
 
+#identidad h2{
+    margin-bottom: 20px;
+}
+
 #identidad p{
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
+    border-top: 20px;
 }
 
 #servicios{
@@ -60,13 +65,25 @@ section{
     text-align: center;
 }
 
+#contacto p{
+    font-size: 25px;
+
+}
+
 footer{
     text-align: center;
-    margin-top: auto;
-    margin-bottom: 5px;
-    border-bottom: solid;
     width: 100%;
+    border-top: solid;
+    border-width: 100%;
+    margin: 0;
 }
+
+footer nav a{
+    display: block;
+    padding: 5px;
+}
+
+
 
 #serviciosP {
     list-style-type: none;
