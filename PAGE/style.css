@@ -7,8 +7,7 @@
 body{
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    background-color: antiquewhite;
+    background-color: rgb(228, 225, 222);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 html,body{
@@ -38,6 +37,15 @@ header nav a{
     color: rgb(0, 0, 0);
 }
 
+img{
+    height: 80%;
+    display: block;
+    width: auto;
+    opacity: 80%;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    border-bottom: solid #333;
+}
+
 section{
     font-size: 30px;
     margin: 30px;
@@ -49,6 +57,7 @@ section{
 
 #identidad h2{
     margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 #identidad p{
@@ -73,9 +82,9 @@ section{
 footer{
     text-align: center;
     width: 100%;
-    border-top: solid;
-    border-width: 100%;
     margin: 0;
+    border-top: solid #333;
+    border-width: 100%;
 }
 
 footer nav a{
