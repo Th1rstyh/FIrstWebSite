@@ -124,3 +124,17 @@ footer nav a{
     }
 
 }
+
+@media (max-width: 350px) {
+    header nav {
+        flex-direction: column;
+        gap: 5px;
+    }
+    header nav a {
+        padding: 3px;
+        font-size: 14px;
+    }
+    header h1 {
+        font-size: 25px;
+    }
+}
