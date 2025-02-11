@@ -129,6 +129,22 @@ footer nav a{
         font-size: 15px;
     
     }
+    #contacto p{
+        font-size: 20px;
+    
+    }
+    #identidad h2{
+        font-size: 35px;
+    }
+    #identidad p{
+        font-size: 15px;
+    }
+    #servicios h2{
+        font-size: 35px;
+    }
+    #contacto h2{
+        font-size: 35px;
+    }
 
 }
 
@@ -150,5 +166,21 @@ footer nav a{
     #serviciosP ul li{ /*Texto Servicios*/
         font-size: 10px;
     
+    }
+    #contacto p{
+        font-size: 15px;
+    
+    }
+    #identidad h2{
+        font-size: 30px;
+    }
+    #identidad p{
+        font-size: 10px;
+    }
+    #servicios h2{
+        font-size: 30px;
+    }
+    #contacto h2{
+        font-size: 30px;
     }
 }
